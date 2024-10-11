@@ -6,7 +6,7 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.16.4
+#       jupytext_version: 1.16.1
 #   kernelspec:
 #     display_name: Python 3 (ipykernel)
 #     language: python
@@ -139,9 +139,9 @@
 # Sometimes, you need to edit several places at once. Press command (macOS) or alt (Windows) and click to place additional cursors. 
 
 # Change the 4 "dd"s to "gg"
-+ gg.theme_bw()
-+ gg.theme(figure_size=(10,6))
-+ gg.theme(axis_text_x=dd.element_text(angle=30, hjust=1))
++ dd.theme_bw()
++ dd.theme(figure_size=(10,6))
++ dd.theme(axis_text_x=dd.element_text(angle=30, hjust=1))
 
 
 # ---
